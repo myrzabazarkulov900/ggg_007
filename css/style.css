@@ -1,0 +1,1059 @@
+.bg {
+    width: 100%;
+    height: 800px;
+    background: white;
+    z-index: 2;
+    position: absolute;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    z-index: 4;
+    right: 50px;
+}
+
+.nav_items {
+    color: white;
+    z-index: 4;
+    font-family: Arial;
+    padding: 0 0 3px 0;
+    margin: 45px 50px;
+    right: 50px;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    transition: all .3s;
+}
+
+.nav_items:hover {
+    border-bottom: 3px solid white;
+}
+
+.header_top {
+    top: 0;
+    position: fixed;
+    z-index: 4;
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+
+.logo {
+    position: fixed;
+    left: 50px;
+    top: 0px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.column_1 {
+    position: relative;
+}
+
+.title_1 {
+    position: absolute;
+    z-index: 3;
+    color: black;
+    font-family: Arial;
+    top: 300px;
+    font-size: 40px;
+    left: 50px;
+    font-weight: bolder;
+}
+
+.txt_1 {
+    position: absolute;
+    z-index: 3;
+    font-family: Arial;
+    top: 400px;
+    left: 50px;
+    line-height: 30px;
+}
+
+.button_1 {
+    color: white;
+    background: black;
+    position: absolute;
+    font-size: 20px;
+    top: 650px;
+    z-index: 3;
+    left: 50px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button_1:hover {
+    background: transparent;
+    color: black;
+}
+
+.button_2 {
+    color: white;
+    background: black;
+    position: absolute;
+    font-size: 20px;
+    top: 650px;
+    z-index: 3;
+    left: 180px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button_2:hover {
+    background: transparent;
+    color: black;
+}
+
+.lexus img {
+    z-index: 2;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    right: 50px;
+    top: 300px;
+    animation-name: lexus;
+    animation-delay: 3s;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.lexus_2 img {
+    z-index: 2;
+    height: 450px;
+    width: 650px;
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    animation-name: lexus_2;
+    animation-delay: 3s;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes lexus_2 {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes lexus {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+.block_1 {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    z-index: 3;
+    background: #919191;
+    top: 800px;
+}
+
+.block_1_top {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    background: black;
+}
+
+.block_1_content_wrds {
+    color: white;
+    text-align: center;
+}
+
+.block_1_content_title {
+    font-size: 40px;
+    font-family: Arial;
+    padding: 0;
+    position: relative;
+    top: 40px;
+}
+
+.block_1_content_txt {
+    font-family: Arial;
+    position: relative;
+    top: 60px;
+    margin: 0 15%;
+    line-height: 30px;
+}
+
+.columns_of_block_1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column_2 {
+    margin: 50px;
+    border-radius: 10px;
+    width: 400px;
+    background: white;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+}
+
+.column_2:hover {
+    box-shadow: 3px 3px 50px 3px black;
+}
+
+.column_3:hover {
+    box-shadow: 3px 3px 50px 3px black;
+}
+
+.column_4:hover {
+    box-shadow: 3px 3px 50px 3px black;
+}
+
+.column_3 {
+    margin: 50px;
+    border-radius: 10px;
+    width: 400px;
+    background: white;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+}
+
+.column_4 {
+    margin: 50px;
+    border-radius: 10px;
+    width: 400px;
+    background: white;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+}
+
+.title_of_column_1 {
+    font-size: 30px;
+    font-family: Arial;
+    margin: 30px 0;
+}
+
+.title_of_column_2 {
+    font-size: 30px;
+    font-family: Arial;
+    margin: 30px 0;
+}
+
+.title_of_column_3 {
+    font-size: 30px;
+    font-family: Arial;
+    margin: 30px 0;
+}
+
+.images_of_column_2 {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 155px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .3s;
+}
+
+.images_of_column_3 {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 155px;
+    text-align: center;
+    transition: all .3s;
+}
+
+.images_of_column_4 {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 155px;
+    text-align: center;
+    transition: all .3s;
+}
+
+.images_of_column_4:hover {
+    background: black;
+    color: white;
+}
+
+.images_of_column_3:hover {
+    background: black;
+    color: white;
+}
+
+.images_of_column_2:hover {
+    background: black;
+    color: white;
+}
+
+.img {
+    position: relative;
+    top: 40px;
+    font-weight: bolder;
+    font-family: Arial;
+}
+
+.column_2_txt {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    font-family: Arial;
+    margin: 50px 30px;
+    text-align: center;
+}
+
+.column_3_txt {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    font-family: Arial;
+    margin: 50px 30px;
+    text-align: center;
+}
+
+.column_4_txt {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    font-family: Arial;
+    margin: 50px 30px;
+    text-align: center;
+}
+
+.column_2_btn {
+    color: white;
+    background: black;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.column_2_btn:hover {
+    background: transparent;
+    color: black;
+}
+
+.column_3_btn {
+    color: white;
+    background: black;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.column_3_btn:hover {
+    background: transparent;
+    color: black;
+}
+
+.column_4_btn {
+    color: white;
+    background: black;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.column_4_btn:hover {
+    background: transparent;
+    color: black;
+}
+
+@media(max-width:1340px) {
+    .column_2 {
+        margin: 50px 10px
+    }
+    .column_3 {
+        margin: 50px 10px
+    }
+    .column_4 {
+        margin: 50px 10px
+    }
+}
+
+@media(max-width:1240px) {
+    .column_2 {
+        width: 350px;
+        margin: 50px 10px
+    }
+    .column_3 {
+        width: 350px;
+        margin: 50px 10px
+    }
+    .column_4 {
+        width: 350px;
+        margin: 50px 10px
+    }
+    .images_of_column_2 {
+        margin: 0 125px;
+    }
+    .images_of_column_3 {
+        margin: 0 125px;
+    }
+    .images_of_column_4 {
+        margin: 0 125px;
+    }
+    .block_1_content_txt {
+        line-height: 25px
+    }
+}
+
+@media(max-width:1024px) {
+    .column_2 {
+        width: 300px;
+        margin: 50px 10px
+    }
+    .column_3 {
+        width: 300px;
+        margin: 50px 10px
+    }
+    .column_4 {
+        width: 300px;
+        margin: 50px 10px
+    }
+    .images_of_column_2 {
+        margin: 0 105px;
+    }
+    .images_of_column_3 {
+        margin: 0 105px;
+    }
+    .images_of_column_4 {
+        margin: 0 105px;
+    }
+    .block_1_content_txt {
+        line-height: 20px
+    }
+    .lexus img {
+        height: 300px;
+        width: 500px;
+        top: 100px;
+        left: 200px;
+    }
+    .lexus_2 img {
+        height: 350px;
+        width: 550px;
+        top: 100px;
+        left: 180px;
+    }
+    .button_1 {
+        top: 740px
+    }
+    .button_2 {
+        top: 740px
+    }
+    .txt_1 {
+        top: 550px;
+        line-height: 25px;
+    }
+    .title_1 {
+        top: 490px;
+    }
+}
+
+@media(max-width:900px) {
+    .column_2 {
+        width: 250px;
+        margin: 50px 10px
+    }
+    .column_3 {
+        width: 250px;
+        margin: 50px 10px
+    }
+    .column_4 {
+        width: 250px;
+        margin: 50px 10px
+    }
+    .images_of_column_2 {
+        margin: 0 85px;
+    }
+    .images_of_column_3 {
+        margin: 0 85px;
+    }
+    .images_of_column_4 {
+        margin: 0 85px;
+    }
+    .block_1_content_txt {
+        line-height: 20px
+    }
+    .lexus img {
+        height: 300px;
+        width: 500px;
+        top: 100px;
+        left: 200px;
+    }
+    .lexus_2 img {
+        height: 350px;
+        width: 550px;
+        top: 100px;
+        left: 180px;
+    }
+    .button_1 {
+        top: 740px
+    }
+    .button_2 {
+        top: 740px
+    }
+    .txt_1 {
+        top: 550px;
+        line-height: 25px;
+    }
+    .title_1 {
+        top: 490px;
+    }
+    .column_2_txt {
+        margin: 30px;
+    }
+    .column_3_txt {
+        margin: 30px;
+    }
+    .column_4_txt {
+        margin: 30px;
+    }
+}
+
+@media(max-width:800px) {
+    .nav_items {
+        margin: 45px 34px;
+    }
+    .block_1_content_title {
+        top: 25px;
+    }
+    .block_1_content_txt {
+        top: 45px;
+    }
+    .button_2 {
+        color: white;
+        background: black;
+        position: absolute;
+        font-size: 20px;
+        top: 682px;
+        z-index: 3;
+        left: 283px;
+        font-family: Arial;
+        border: 1px solid black;
+        padding: 10px 30px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .button_1 {
+        color: white;
+        background: black;
+        position: absolute;
+        font-size: 20px;
+        top: 682px;
+        z-index: 3;
+        left: 155px;
+        font-family: Arial;
+        border: 1px solid black;
+        padding: 10px 30px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .txt_1 {
+        position: absolute;
+        z-index: 3;
+        font-family: Arial;
+        top: 450px;
+        left: 155px;
+        line-height: 30px;
+    }
+    .title_1 {
+        position: absolute;
+        z-index: 3;
+        color: black;
+        font-family: Arial;
+        top: 405px;
+        font-size: 40px;
+        left: 155px;
+        font-weight: bolder;
+    }
+}
+
+#burger {
+    display: none;
+}
+
+@media(max-width:768px) {
+    #burger {
+        display: none;
+    }
+    label[name="hamburger"] {
+        width: 50px;
+        height: 40px;
+        background: transparent;
+        position: fixed;
+        top: 25px;
+        right: 45px;
+        cursor: pointer;
+        z-index: 6;
+    }
+    #burger:checked~.fourth {
+        display: none;
+    }
+    #burger:checked~.first {
+        display: none;
+    }
+    #burger:checked~.second {
+        transform: rotate(45deg)
+    }
+    #burger:checked~.third {
+        transform: rotate(-45deg)
+    }
+    #burger:checked~.nav {
+        max-width: 100%;
+        font-size: 20px;
+    }
+    .line {
+        position: fixed;
+        top: 35px;
+        right: 50px;
+        width: 40px;
+        height: 3px;
+        background: white;
+        z-index: 5;
+        transition: all .3s;
+    }
+    .second,
+    .third {
+        top: 45px;
+    }
+    .fourth {
+        top: 55px;
+    }
+    .nav {
+        right: 0;
+        display: block;
+        background: black;
+        height: 100%;
+        width: 300px;
+        overflow: hidden;
+        max-width: 0;
+        font-size: 0;
+        transition: all .3s;
+    }
+    .nav_items {
+        display: block;
+    }
+    .nav_items:hover {
+        border-bottom: 3px solid transparent;
+    }
+    .first_nav {
+        margin: 200px 34px 45px 34px;
+    }
+    .columns_of_block_1 {
+        flex: none;
+        display: block;
+    }
+    .column_2 {
+        display: block;
+        width: 85%;
+        margin: 50px;
+    }
+    .column_3 {
+        display: block;
+        width: 85%;
+        margin: 50px;
+    }
+    .column_4 {
+        display: block;
+        width: 85%;
+        margin: 50px;
+    }
+    .column_2_txt {
+        margin: 60px;
+    }
+    .column_3_txt {
+        margin: 60px;
+    }
+    .column_4_txt {
+        margin: 60px;
+    }
+    .images_of_column_2 {
+        margin: 40px 275px 0 275px;
+    }
+    .images_of_column_3 {
+        margin: 40px 275px 0 275px;
+    }
+    .images_of_column_4 {
+        margin: 40px 275px 0 275px;
+    }
+    .title_of_column_1 {
+        top: 20px;
+        position: relative;
+    }
+    .title_of_column_2 {
+        top: 20px;
+        position: relative;
+    }
+    .title_of_column_3 {
+        top: 20px;
+        position: relative;
+    }
+    .block_1_content_txt {
+        top: 35px;
+        margin: 0 5%;
+    }
+    .block_1 {
+        height: 1880px;
+    }
+    .lexus img {
+        height: 300px;
+        width: 500px;
+        top: 100px;
+        left: 125px;
+    }
+    .lexus_2 img {
+        height: 350px;
+        width: 550px;
+        top: 100px;
+        left: 91px;
+    }
+}
+
+@media(max-width:700px) {
+    .images_of_column_2 {
+        margin: 0 245px;
+    }
+    .images_of_column_3 {
+        margin: 0 245px;
+    }
+    .images_of_column_4 {
+        margin: 0 245px;
+    }
+    .block_1_content_txt {
+        font-size: 15px;
+    }
+    .title_1 {
+        position: absolute;
+        z-index: 3;
+        color: black;
+        font-family: Arial;
+        top: 405px;
+        font-size: 40px;
+        left: 50px;
+        font-weight: bolder;
+    }
+    .txt_1 {
+        position: absolute;
+        z-index: 3;
+        font-family: Arial;
+        top: 450px;
+        left: 50px;
+        line-height: 30px;
+    }
+    .button_1 {
+        color: white;
+        background: black;
+        position: absolute;
+        font-size: 20px;
+        top: 682px;
+        z-index: 3;
+        left: 50px;
+        font-family: Arial;
+        border: 1px solid black;
+        padding: 10px 30px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .button_2 {
+        color: white;
+        background: black;
+        position: absolute;
+        font-size: 20px;
+        top: 682px;
+        z-index: 3;
+        left: 180px;
+        font-family: Arial;
+        border: 1px solid black;
+        padding: 10px 30px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+}
+
+@media(max-width:600px) {
+    .lexus img {
+        height: 300px;
+        width: 500px;
+        top: 100px;
+        left: 66px;
+    }
+    .lexus_2 img {
+        height: 350px;
+        width: 550px;
+        top: 100px;
+        left: 34px;
+    }
+    .images_of_column_2 {
+        margin: 0 205px;
+    }
+    .images_of_column_3 {
+        margin: 0 205px;
+    }
+    .images_of_column_4 {
+        margin: 0 205px;
+    }
+}
+
+@media(max-width:600px) {
+    .lexus img {
+        height: 300px;
+        width: 500px;
+        top: 100px;
+        left: 66px;
+    }
+    .lexus_2 img {
+        height: 350px;
+        width: 550px;
+        top: 100px;
+        left: 34px;
+    }
+    .images_of_column_2 {
+        margin: 0 205px;
+    }
+    .images_of_column_3 {
+        margin: 0 205px;
+    }
+    .images_of_column_4 {
+        margin: 0 205px;
+    }
+}
+
+@media(max-width:500px) {
+    .lexus img {
+        height: 255px;
+        width: 349px;
+        top: 112px;
+        left: 66px;
+    }
+    .lexus_2 img {
+        height: 255px;
+        width: 362px;
+        top: 128px;
+        left: 58px;
+    }
+    .images_of_column_2 {
+        margin: 0 165px;
+    }
+    .images_of_column_3 {
+        margin: 0 165px;
+    }
+    .images_of_column_4 {
+        margin: 0 165px;
+    }
+    .txt_1 {
+        position: absolute;
+        z-index: 3;
+        font-family: Arial;
+        top: 450px;
+        left: 50px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .block_1_top {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 328px;
+        background: black;
+    }
+    .column_2 {
+        display: block;
+        width: 85%;
+        margin: 40px;
+    }
+    .column_3 {
+        display: block;
+        width: 85%;
+        margin: 40px;
+    }
+    .column_4 {
+        display: block;
+        width: 85%;
+        margin: 40px;
+    }
+    .images_of_column_2 {
+        margin: 0 155px;
+    }
+    .images_of_column_3 {
+        margin: 0 155px;
+    }
+    .images_of_column_4 {
+        margin: 0 155px;
+    }
+    .block_1_content_title {
+        font-size: 35px;
+        font-family: Arial;
+        padding: 0;
+        position: relative;
+        top: 25px;
+    }
+}
+
+@media(max-width:425px) {
+    .lexus img {
+        height: 255px;
+        width: 349px;
+        top: 112px;
+        left: 35px;
+    }
+    .lexus_2 img {
+        height: 255px;
+        width: 362px;
+        top: 128px;
+        left: 31px;
+    }
+    .title_1 {
+        position: absolute;
+        z-index: 3;
+        color: black;
+        font-family: Arial;
+        top: 380px;
+        font-size: 40px;
+        left: 34px;
+        font-weight: bolder;
+    }
+    .images_of_column_2 {
+        margin: 0 165px;
+    }
+    .images_of_column_3 {
+        margin: 0 165px;
+    }
+    .images_of_column_4 {
+        margin: 0 165px;
+    }
+    .txt_1 {
+        position: absolute;
+        z-index: 3;
+        font-family: Arial;
+        top: 437px;
+        left: 36px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+.button_2 {
+    color: white;
+    background: black;
+    position: absolute;
+    font-size: 20px;
+    top: 737px;
+    z-index: 3;
+    left: 33px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 19px 151px;
+    cursor: pointer;
+    transition: all .3s;
+}
+    .button_1 {
+    color: white;
+    background: black;
+    position: absolute;
+    font-size: 20px;
+    top: 664px;
+    z-index: 3;
+    left: 33px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 19px 150px;
+    cursor: pointer;
+    transition: all .3s;
+}
+    .block_1_content_txt {
+    top: 35px;
+    margin: 0px 9%;
+}
+.block_1_content_title {
+    font-size: 27px;
+    font-family: Arial;
+    padding: 0;
+    position: relative;
+    top: 25px;
+}
+.block_1_top {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 395px;
+    background: black;
+}
+    .column_2 {
+        display: block;
+        width: 85%;
+        margin: 40px;
+    }
+    .column_3 {
+        display: block;
+        width: 85%;
+        margin: 40px;
+    }
+    .column_4 {
+        display: block;
+        width: 85%;
+        margin: 40px;
+    }
+    .images_of_column_2 {
+        margin: 0 125px;
+    }
+    .images_of_column_3 {
+        margin: 0 125px;
+    }
+    .images_of_column_4 {
+        margin: 0 125px;
+    }
+
+}
